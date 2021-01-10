@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Lodge</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/fontawesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+       <!--header==========-->
+      <div id="header" class="header">
+         <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
+            <div class="container">
+               <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="#" /></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="show-menu">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#hiw">Lodge</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#wcs">About Team</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                     </li>
+                     <li class="nav-item .search-container">
+                        <a class="nav-link search" href="#"><i class="fas fa-search"></i></a>
+                        <form>
+                           <input type="search" placeholder="Search">
+                        </form>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- header end -->
+      <div class="container-fluid bd-highlight">
+        <div class="row">
+            <!--Filter start -->
+            <div class=" col-sm-12  col-lg-3 col-md-4 text-black  ">
+                <div class="card">
+                <div class="card-body">
+                <div class="container">
+                <h2>Filter</h2>
+                <h6>Prise</h6>
+                
+                    <input type="range" value= "10" name="vol" min="0"  max="10">
+                
+                
+                <hr class="bg-primary">
+                <h5>Collection</h5>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Santised b4 ur eyes
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Family OYOs
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> For Group Travellers
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Local IDs accepted
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Oyo Welcome Couples
+                    </label>
+                </div>
+                <h6 class= "text-danger fas fa-plus"> View More</h6>
+                <hr class="bg-primary">
+                <h5>Categories</h5>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> <span><b>OYO Rooms-</b>Super affordable stays with essential amenitien</span>
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> <span><b>Home Luxe-</b>Beautifully designed, spacious homes at prime locations and premium amenties</span>
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> <span><b>OYOX Design-</b>Beautifully designed, private homes crafted for the traveller who craves comfort</span>
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> <span><b>Home-</b>Villas and apartments with extra space and privacy</span>
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> <span><b>Spot On-</b>Budget stay with comfortable bed and clean washroom</span>
+                    </label>
+                </div>
+                <hr class="bg-primary">
+                <h5>Accomodation Type</h5>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Oyo Home
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Hotel
+                    </label>
+                </div>
+                <hr class="bg-primary">
+                <h5>Hotel Facilities</h5>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Parking Facilities
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Kitchen
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Geyser
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Luggage Assistance
+                    </label>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> TV
+                    </label>
+                </div>
+                <h6 class= "text-danger fas fa-plus"> View More</h6>
+                <hr class="bg-primary">
+
+                <hr class="bg-primary">
+                <h5>Check-in Features</h5>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Pay at Hotel
+                    </label>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <!-- filter end -->
+            <!-- content start -->
+            <div class="col-sm-12 col-lg-9 col-md-8">
+                <div class="row p-2">
+                    <div class="col-sm-12 col-lg-7 col-md-5">
+
+                        <h2>Lodge in Bhagalpur</h2>
+                    </div>
+                    <div class="col-sm-12 col-lg-2 col-md-3"></div>
+                    <div class="col-sm-12 col-lg-3 col-md-4">
+                        <div class="form-group form-check">
+                            <form class="form-inline">
+                                <label class="mr-2">Sort By</label>
+                            <select class="form-control">
+                                <option>Popularity</option>
+                                <option>Popularity</option>
+                                <option>Popularity</option>
+                                
+                            </select>
+                        </form>
+                        </div>  
+                    </div>
+                    
+                </div>
+                <hr class="bg-primary">
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-5 col-md-6">
+                                        <img src="./imgs/about.png" style="height: 300px; ">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-7 col-md-6">
+                                        <h2>OYO Home 15203</h2>
+                                        <h6 >Near bhagalpur <i class='fas fa-map-marker-alt'> 13.3km </i></h6>
+                                        <h2 class="btn btn-success text-white">4.2<i class='fas fa-star'></i></h2>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-3 col-md-2 far fa-check-circle"> Reception</div>
+                                            <div class="col-sm-12 col-lg-1 col-md-2 fa-air-conditioner ">AC</div>
+                                            <div class="col-sm-12 col-lg-4 col-md-2">
+                                                <p class="far fa-check-circle"> Daily Housekeeping</p>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4 col-md-6 fas fa-plus"> 8 more</div>
+                                        </div>
+                                       
+                                        <button class="form-control" style=" width: 125px;">Sentised Stay</button></BR>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6 col-md-6">
+                                                <i class="text-danger fa fa-rupee">1693</i>
+                                                <i class="fa fa-rupee" style="text-decoration:line-through;">2822</i>
+                                                <i class="text-warning fa fa-rupee">40% Off</i>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <button class="form-control" style=" width: 125px;">View Details</button>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <h2 class="btn btn-success text-white">Book Now</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-5 col-md-6">
+                                        <img src="./imgs/about.png" style="height: 300px; ">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-7 col-md-6">
+                                        <h2>OYO Home 15203</h2>
+                                        <h6 >Near bhagalpur <i class='fas fa-map-marker-alt'> 13.3km </i></h6>
+                                        <h2 class="btn btn-success text-white">4.2<i class='fas fa-star'></i></h2>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-3 col-md-2 far fa-check-circle"> Reception</div>
+                                            <div class="col-sm-12 col-lg-1 col-md-2 fa-air-conditioner ">AC</div>
+                                            <div class="col-sm-12 col-lg-4 col-md-2">
+                                                <p class="far fa-check-circle"> Daily Housekeeping</p>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4 col-md-6 fas fa-plus"> 8 more</div>
+                                        </div>
+                                       
+                                        <button class="form-control" style=" width: 125px;">Sentised Stay</button></BR>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6 col-md-6">
+                                                <i class="text-danger fa fa-rupee">1693</i>
+                                                <i class="fa fa-rupee" style="text-decoration:line-through;">2822</i>
+                                                <i class="text-warning fa fa-rupee">40% Off</i>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <button class="form-control" style=" width: 125px;">View Details</button>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <h2 class="btn btn-success text-white">Book Now</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-5 col-md-6">
+                                        <img src="./imgs/about.png" style="height: 300px; ">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-7 col-md-6">
+                                        <h2>OYO Home 15203</h2>
+                                        <h6 >Near bhagalpur <i class='fas fa-map-marker-alt'> 13.3km </i></h6>
+                                        <h2 class="btn btn-success text-white">4.2<i class='fas fa-star'></i></h2>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-3 col-md-2 far fa-check-circle"> Reception</div>
+                                            <div class="col-sm-12 col-lg-1 col-md-2 fa-air-conditioner ">AC</div>
+                                            <div class="col-sm-12 col-lg-4 col-md-2">
+                                                <p class="far fa-check-circle"> Daily Housekeeping</p>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4 col-md-6 fas fa-plus"> 8 more</div>
+                                        </div>
+                                       
+                                        <button class="form-control" style=" width: 125px;">Sentised Stay</button></BR>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6 col-md-6">
+                                                <i class="text-danger fa fa-rupee">1693</i>
+                                                <i class="fa fa-rupee" style="text-decoration:line-through;">2822</i>
+                                                <i class="text-warning fa fa-rupee">40% Off</i>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <button class="form-control" style=" width: 125px;">View Details</button>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <h2 class="btn btn-success text-white">Book Now</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-5 col-md-6">
+                                        <img src="./imgs/about.png" style="height: 300px; ">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-7 col-md-6">
+                                        <h2>OYO Home 15203</h2>
+                                        <h6 >Near bhagalpur <i class='fas fa-map-marker-alt'> 13.3km </i></h6>
+                                        <h2 class="btn btn-success text-white">4.2<i class='fas fa-star'></i></h2>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-3 col-md-2 far fa-check-circle"> Reception</div>
+                                            <div class="col-sm-12 col-lg-1 col-md-2 fa-air-conditioner ">AC</div>
+                                            <div class="col-sm-12 col-lg-4 col-md-2">
+                                                <p class="far fa-check-circle"> Daily Housekeeping</p>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4 col-md-6 fas fa-plus"> 8 more</div>
+                                        </div>
+                                       
+                                        <button class="form-control" style=" width: 125px;">Sentised Stay</button></BR>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6 col-md-6">
+                                                <i class="text-danger fa fa-rupee">1693</i>
+                                                <i class="fa fa-rupee" style="text-decoration:line-through;">2822</i>
+                                                <i class="text-warning fa fa-rupee">40% Off</i>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <button class="form-control" style=" width: 125px;">View Details</button>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-3 col-md-6">
+                                                <h2 class="btn btn-success text-white">Book Now</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+ 
+            </div>
+            
+            <!-- content end -->
+        </div>
+      </div>
+    
+      <!--footer======--->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-md-6 col-12">
+                  <div class="footer_blog_section">
+                     <img src="imgs/logo.png" alt="#" />
+                     <p style="margin-top: 5px;">It is a long established fact that a reader will be distracted by the readable content..</p>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-6 col-12">
+                  <div class="item">
+                     <h4 class="text-uppercase">Navigation</h4>
+                     <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Features</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                     <h4 class="text-uppercase">Contact Info</h4>
+                     <p><strong>Corporate Office Address:</strong></p>
+                     <p><img src="imgs/phone_icon.png" alt="#" /> 1234 River Street New York, NY 36524</p>
+                     <p><strong>Customer Service:</strong></p>
+                     <p><img src="imgs/location.png" alt="#" /> 910 262 7898</p>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-12">
+                  <div class="item">
+                     <h4 class="text-uppercase">Discover</h4>
+                     <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright text-center">
+            <p> 2020  Design by ANIKET RAJ <a href="https://html.design"></a></p>
+         </div>
+      </footer>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(function () {
+             
+             'use strict';
+             
+             var winH = $(window).height();
+             
+             $('header').height(winH);  
+             
+             $('header .container > div').css('top', (winH / 2) - ( $('header .container > div').height() / 2));
+             
+             $('.navbar ul li a.search').on('click', function (e) {
+                 e.preventDefault();
+             });
+             $('.navbar a.search').on('click', function () {
+                 $('.navbar form').fadeToggle();
+             });
+             
+             $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                 
+                 var getAttr = $(this).attr('href');
+                 
+                 e.preventDefault();
+                 $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+             });
+         })
+      </script>
+      <a href="index.html">index</a>
+   </body>
+</html>
